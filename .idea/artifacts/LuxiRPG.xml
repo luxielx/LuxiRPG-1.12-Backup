@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LuxiRPG">
+    <output-path>$PROJECT_DIR$/../artifacts</output-path>
+    <root id="archive" name="LuxiRPG.jar">
+      <element id="module-output" name="LuxiRPG" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/taubay.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/class.yml" />
+    </root>
+  </artifact>
+</component>
